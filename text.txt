@@ -1,0 +1,15 @@
+Проверка на логин
+https://packagist.org/packages/delight-im/auth#user-content-login-state
+
+Login state
+
+if ($auth->isLoggedIn()) {
+    echo 'User is signed in';
+}
+else {
+    echo 'User is not signed in yet';
+}
+
+
+User ID
+$id = $auth->getUserId();
